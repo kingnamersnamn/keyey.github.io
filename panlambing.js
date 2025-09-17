@@ -8,16 +8,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Array of photo objects with src and alt
     const photos = [
-        { src: '../assets/IMG_20240124_220612_368.jpg', alt: 'Memory 1' },
-        { src: '../assets/IMG_20240510_113744.jpg', alt: 'Memory 2' },
-        { src: '../assets/IMG_20240822_140512.jpg', alt: 'Memory 3' },
-        { src: '../assets/IMG_20250110_123704.jpg', alt: 'Memory 4' },
-        { src: '../assets/IMG_20250124_004337_735.jpg', alt: 'Memory 5' },
-        { src: '../assets/IMG_20250205_162302.jpg', alt: 'Memory 6' },
-        { src: '../assets/IMG_20250205_162816.jpg', alt: 'Memory 7' },
-        { src: '../assets/IMG_20250205_162825.jpg', alt: 'Memory 8' },
-        { src: '../assets/IMG_20250312_121916.jpg', alt: 'Memory 9' },
-        { src: '../assets/Videoframe_20240216_190316_com.huawei.himovie.overseas.jpg', alt: 'Memory 10' }
+        { src: 'assets/IMG_20240124_220612_368.jpg', alt: 'Memory 1' },
+        { src: 'assets/IMG_20240510_113744.jpg', alt: 'Memory 2' },
+        { src: 'assets/IMG_20240822_140512.jpg', alt: 'Memory 3' },
+        { src: 'assets/IMG_20250110_123704.jpg', alt: 'Memory 4' },
+        { src: 'assets/IMG_20250124_004337_735.jpg', alt: 'Memory 5' },
+        { src: 'assets/IMG_20250205_162302.jpg', alt: 'Memory 6' },
+        { src: 'assets/IMG_20250205_162816.jpg', alt: 'Memory 7' },
+        { src: 'assets/IMG_20250205_162825.jpg', alt: 'Memory 8' },
+        { src: 'assets/IMG_20250312_121916.jpg', alt: 'Memory 9' },
+        { src: 'assets/Videoframe_20240216_190316_com.huawei.himovie.overseas.jpg', alt: 'Memory 10' }
     ];
 
     // GIF URLs for explosion effects (cycled)
@@ -180,3 +180,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
